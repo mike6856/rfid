@@ -10,7 +10,6 @@ app = Flask(__name__)
 @app.route('/index')
 def index():
     return 'hello world'
-    #render template with values as arguments?
 
 @app.route('/auth/<rfid_num>')
 def auth(rfid_num):

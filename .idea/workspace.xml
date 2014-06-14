@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64a21552-627a-41c6-95ce-a431ec699744" name="Default" comment="" />
+    <list default="true" id="64a21552-627a-41c6-95ce-a431ec699744" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observatory/app.py" afterPath="$PROJECT_DIR$/observatory/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="observatory.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,10 +30,19 @@
       <file leaf-file-name="app.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/observatory/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="27" selection-start="547" selection-end="547" vertical-scroll-proportion="0.32033426" vertical-offset="0" max-vertical-offset="1077">
+            <state line="11" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="0.15320334" vertical-offset="0" max-vertical-offset="1077">
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,9 +101,10 @@
         <option value="$PROJECT_DIR$/observatory/tmp2 hosts" />
         <option value="$PROJECT_DIR$/observatory/templates/host_list.html" />
         <option value="$PROJECT_DIR$/observatory/static/users/users.txt" />
-        <option value="$PROJECT_DIR$/observatory/app.py" />
         <option value="$PROJECT_DIR$/observatory/mongo/mongoapi.py" />
         <option value="$PROJECT_DIR$/observatory/templates/base.html" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/observatory/app.py" />
       </list>
     </option>
   </component>
@@ -153,24 +167,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="observatory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="observatory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rffid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="observatory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,7 +361,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15335463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15335463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -541,21 +537,6 @@
         <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="915" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/nginx_site.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/supervisord.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="25" selection-start="7908" selection-end="7908" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2010" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/observatory/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
@@ -570,36 +551,6 @@
         <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="915" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/nginx_site.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/supervisord.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="25" selection-start="7908" selection-end="7908" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2010" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/supervisord.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="1" selection-start="3164" selection-end="3164" vertical-scroll-proportion="-77.4" vertical-offset="0" max-vertical-offset="2025" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/hosts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/setup_server.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="990" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
@@ -607,34 +558,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/supervisor.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/supervisord.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="25" selection-start="7908" selection-end="7908" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2010" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/deploy.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="44" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="57" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/nginx_site.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.4211036" vertical-offset="0" max-vertical-offset="1033" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops/templates/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.4211036" vertical-offset="0" max-vertical-offset="1033" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/templates/host_view.html">
@@ -721,9 +647,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/observatory/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="547" selection-end="547" vertical-scroll-proportion="0.32033426" vertical-offset="0" max-vertical-offset="1077">
+        <state line="11" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="0.15320334" vertical-offset="0" max-vertical-offset="1077">
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
