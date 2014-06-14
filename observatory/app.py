@@ -17,7 +17,7 @@ def auth(rfid_num):
     print os.getcwd()
     file = open('/home/vagrant/rffid/observatory/static/users/users.txt', 'r')
     for user in file:
-        pw = user.split(' ')
+        pw = user.split(':')
         print rfid_num
         print pw[1]
         if str(pw[1].strip()) == str(rfid_num):
