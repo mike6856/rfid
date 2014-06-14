@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64a21552-627a-41c6-95ce-a431ec699744" name="Default" comment="" />
+    <ignored path="observatory.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="observatory" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/observatory/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="27" selection-start="547" selection-end="547" vertical-scroll-proportion="0.32033426" vertical-offset="0" max-vertical-offset="1077">
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/observatory/static/users/users.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tmp2 hosts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/observatory/tmp2 hosts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/observatory/mongo/__init__.py" />
+        <option value="$PROJECT_DIR$/observatory/devops/host" />
+        <option value="$PROJECT_DIR$/observatory/devops/setup_server.yml" />
+        <option value="$PROJECT_DIR$/observatory/devops/deploy.yml" />
+        <option value="$PROJECT_DIR$/observatory/devops/templates/nginx.conf" />
+        <option value="$PROJECT_DIR$/observatory/devops/templates/nginx_site.conf" />
+        <option value="$PROJECT_DIR$/observatory/devops/templates/supervisor.ini" />
+        <option value="$PROJECT_DIR$/observatory/devops/templates/supervisord.conf" />
+        <option value="$PROJECT_DIR$/observatory/devops/templates/supervisord.sh" />
+        <option value="$PROJECT_DIR$/devops/host" />
+        <option value="$PROJECT_DIR$/devops/hosts" />
+        <option value="$PROJECT_DIR$/devops/key" />
+        <option value="$PROJECT_DIR$/devops/setup_server.yml" />
+        <option value="$PROJECT_DIR$/devops/deploy.yml" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/observatory/__init__.py" />
+        <option value="$PROJECT_DIR$/Vagrantfile" />
+        <option value="$PROJECT_DIR$/wsgi.py" />
+        <option value="$PROJECT_DIR$/tmp" />
+        <option value="$PROJECT_DIR$/observatory/templates/index.html" />
+        <option value="$PROJECT_DIR$/observatory/tmp2 hosts" />
+        <option value="$PROJECT_DIR$/observatory/templates/host_list.html" />
+        <option value="$PROJECT_DIR$/observatory/static/users/users.txt" />
+        <option value="$PROJECT_DIR$/observatory/app.py" />
+        <option value="$PROJECT_DIR$/observatory/mongo/mongoapi.py" />
+        <option value="$PROJECT_DIR$/observatory/templates/base.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mongo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="observatory" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="observatory" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="observatory" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="observatory" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="observatory" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="observatory" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="observatory" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64a21552-627a-41c6-95ce-a431ec699744" name="Default" comment="" />
+      <created>1400538324690</created>
+      <updated>1400538324690</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15335463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/observatory/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="40" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/host_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="53" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/tmp2 hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="100" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/mongo/mongoapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="59" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2310">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/mongo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/cell_snapshot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="34" selection-start="1957" selection-end="2465" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="2775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="40" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="100" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="59" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="2145">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/mongo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/cell_snapshot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="34" selection-start="1957" selection-end="2465" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="100" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1785">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/host_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="915" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/nginx_site.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/supervisord.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="25" selection-start="7908" selection-end="7908" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2010" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/host_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="915" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/nginx_site.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/supervisord.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="25" selection-start="7908" selection-end="7908" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2010" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/supervisord.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="1" selection-start="3164" selection-end="3164" vertical-scroll-proportion="-77.4" vertical-offset="0" max-vertical-offset="2025" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="33" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/setup_server.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/supervisor.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/supervisord.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="25" selection-start="7908" selection-end="7908" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2010" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/deploy.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="44" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="57" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/nginx_site.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.4211036" vertical-offset="0" max-vertical-offset="1033" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops/templates/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="0.4211036" vertical-offset="0" max-vertical-offset="1033" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/host_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="262" column="59" selection-start="14697" selection-end="14697" vertical-scroll-proportion="0.0" vertical-offset="3930" max-vertical-offset="4890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/cell_snapshot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="36" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/host_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="53" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="100" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.338843" vertical-offset="306" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/mongo/mongoapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="86" selection-end="86" vertical-scroll-proportion="11.52" vertical-offset="348" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/mongo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="39" selection-start="95" selection-end="95" vertical-scroll-proportion="0.04178273" vertical-offset="0" max-vertical-offset="1077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/static/users/users.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/tmp2 hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="53" selection-start="161" selection-end="161" vertical-scroll-proportion="0.06957328" vertical-offset="0" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="27" selection-start="547" selection-end="547" vertical-scroll-proportion="0.32033426" vertical-offset="0" max-vertical-offset="1077">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

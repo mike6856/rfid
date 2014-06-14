@@ -1,0 +1,180 @@
+{% set page_title = "Cell Snapshot"%}
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <div class="container-fluid">
+        <div class="col-md-12">
+     <h1 class="page-header">Cell Snapshot: {{cell['region']}} {{cell['cell']}}</h1>
+        <div class="row">
+             <div class="col-md-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            Overview
+                        </div>
+                        <div class="panel-body">
+                            <ul class="nav nav-pills nav-stacked">
+                                <li>
+                                    <a href="/hosts/{{cell['region']}}">
+                                    <span class="badge pull-right">{{cell['host_count']}}</span>
+                                    Hosts
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <span class="badge pull-right">{{cab_count}}</span>
+                                    Cabs
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <span class="badge pull-right">null</span>
+                                    IPs
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-8">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            Network
+                        </div>
+                        <div class="panel-body">
+                           <table class="table table-striped">
+                                  <thead>
+                                    <tr>
+                                      <th>Type</th>
+                                      <th>VLAN</th>
+                                      <th>CIDR</th>
+                                      <th>Gateway</th>
+                                      <th>Netmask</th>
+                                      <th>Block Type</th>
+                                      <th>NSS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                  {% for network in networks %}
+                                    <tr>
+                                      <td>{{network['name']}}</td>
+                                      <td>{{network['vlan_number']}}</td>
+                                      <td>{{network['ip_block_cidr']}}</td>
+                                      <td>{{network['gateway_ip']}}</td>
+                                      <td>{{network['netmask']}}</td>
+                                      <td>{{network['ip_block_type']}}</td>
+                                      <td>{{network['nss']}}</td>
+                                    </tr>
+                                  {% endfor %}
+                                  </tbody>
+                                </table>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+             <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            Cabs
+                        </div>
+                        <div class="panel-body">
+                            {% for cab in cell['cabs']|sort %}
+                            <div class="col-sm-2">
+
+                                {% if cab['not_bootstrapped'] == 0 %}
+                                <div class="panel panel-success">
+                                {% elif cab['not_bootstrapped'] == cab['count'] %}
+                                <div class="panel panel-danger">
+                                {% else %}
+                                <div class="panel panel-warning">
+                                {% endif %}
+
+                                    <div class="panel-heading">
+                                        {{cab['name']}}
+                                    </div>
+                                    <div class="panel-body">
+                                        <ul class="nav nav-pills nav-stacked">
+                                            <li>
+                                                <a href="/hosts/{{cell['region']}}/{{cell['name']}}/{{cab['name']}}">
+                                                <span class="badge pull-right">{{cab['count']}}</span>
+                                                Hosts
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                <span class="badge pull-right">{{cab['not_bootstrapped']}}</span>
+                                                Not Bootstrapped
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                           {% endfor %}
+                        </div>
+                    </div>
+            </div>
+        </div>
+      </div>
+     {% if control_plane %}
+     <div class="col-md-12">
+             <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            Control Plane
+                        </div>
+                        <div class="panel-body">
+                             <table class="table table-striped">
+                                  <thead>
+                                    <tr>
+                                      <th>Role</th>
+                                      <th>Cell</th>
+                                      <th>Name</th>
+                                      <th>Primary IP</th>
+                                      <th>VM State</th>
+                                      <th>Host</th>
+                                      <th>Compute</th>
+                                      <th>Instance Id</th>
+                                      <th>Image Id</th>
+                                      <th>Flavor</th>
+                                      <th>Public IP</th>
+                                      <th>Private IP</th>
+
+                                      <th>Deploy Status</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                  {% for vm in control_plane %}
+                                    <tr>
+                                      <td>{{vm['role']}}</td>
+                                      <td>{{vm['cell']}}</td>
+                                      <td>{{vm['name']}}</td>
+                                      <td>{{vm['primary_ip']}}</td>
+                                        {% if vm['vm_state'] == 'active' %}
+                                            <td class="success">{{vm['vm_state']}}</td>
+                                        {% else %}
+                                            <td class="danger">{{vm['vm_state']}}</td>
+                                        {% endif%}
+                                      <td>{{vm['host_name']}}</td>
+                                      <td>{{vm['compute_name']}}</td>
+                                      <td>{{vm['instance_id']}}</td>
+                                      <td>{{vm['image_id']}}</td>
+                                      <td>{{vm['flavor']}}</td>
+                                      <td>{{vm['public_ips']}}</td>
+                                      <td>{{vm['private_ips']}}</td>
+
+                                      <td>{{vm['deploy_status']}}</td>
+                                    </tr>
+                                  {% endfor %}
+                                  </tbody>
+                                </table>
+
+            </div>
+        </div>
+      </div>
+      {% endif %}
+</div>
+
+{% endblock %}

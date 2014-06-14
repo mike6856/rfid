@@ -1,0 +1,321 @@
+{% set page_title = "Host view"%}
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <div class="container-fluid">
+        <div class="col-md-12">
+     <h1 class="page-header">Host view: {{host['name']}}</h1>
+        <div class="row">
+            <div class="col-md-4">
+             <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            Overview
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr><td><strong>Name</strong></td>
+                                        <td>{{host['name']}}</td></tr>
+                                    <tr><td><strong>Cell</strong></td>
+                                        <td>{{host['cell']}}</td></tr>
+                                    <tr><td><strong>Region</strong></td>
+                                        <td>{{host['region']}}</td></tr>
+                                    <tr><td><strong>Cab</strong></td>
+                                                <td>{{host['cab']}}</td></tr>
+                                    <tr><td><strong>Role</strong></td>
+                                        <td>{{host['role']}}</td></tr>
+                                    <tr><td><strong>Type</strong></td>
+                                        <td>{{host['type']}}</td></tr>
+                                    <tr><td><strong>Number</strong></td>
+                                        <td>{{host['number']}}</td></tr>
+                                    <tr><td><strong>Core Status</strong></td>
+                                        {% if host['core_status'] == 'Online/Complete' %}
+                                            <td class="success">
+                                        {% elif host['core_status'] == 'Segment Configuration' %}
+                                            <td class="warning">
+                                        {% else %}
+                                            <td class="danger">
+                                        {% endif %}
+                                            {{host['core_status']}}</td></tr>
+                                    <tr><td><strong>QC Status</strong></td>
+                                        <td>{{host['qc_status']}}</td></tr>
+                                    <tr><td><strong>Account</strong></td>
+                                        <td>{{host['account']}}</td></tr>
+                                    <tr><td><Strong>Primary IP</Strong></td>
+                                        <td>{{host['primary_ip']}}</td></tr>
+                                    <tr><td><Strong>DB UUID</Strong></td>
+                                        <td>{{host['_id']}}</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+             </div>
+             </div>
+
+            <div class="col-md-4">
+
+                        {% if host['compute_name'] == 'None' %}
+                            <div class="panel panel-danger">
+                            <div class="panel-heading">
+                                Nova:  HOST NOT FOUND IN NOVA DB
+                            </div>
+                        {% else %}
+                            <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                Nova
+                            </div>
+                        {% endif %}
+                        <div class="panel-body">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr><td><strong>Compute Name</strong></td>
+                                        <td>{{host['compute_name']}}</td></tr>
+                                    <tr><td><strong>Hypervisor Version</strong></td>
+                                        <td>{{host['hypervisor_version']}}</td></tr>
+                                    <tr><td><strong>Hypervisor Type</strong></td>
+                                        <td>{{host['hypervisor_type']}}</td></tr>
+                                    <tr><td><strong>OS</strong></td>
+                                        <td>{{host['os']}}</td></tr>
+                                    <tr><td><strong>Free Disk GB</strong></td>
+                                        <td>{{host['free_disk_gb']}}</td></tr>
+                                    <tr><td><strong>Free Ram MB</strong></td>
+                                        <td>{{host['free_ram_mb']}}</td></tr>
+                                    <tr><td><strong>Memory used MB</strong></td>
+                                        <td>{{host['memory_mb_used']}}</td></tr>
+                                    <tr><td><strong>Local Memory GB</strong></td>
+                                        <td>{{host['local_gb']}}</td></tr>
+                                    <tr><td><strong>Local Memory Used GB</strong></td>
+                                        <td>{{host['local_gb_used']}}</td></tr>
+                                    <tr><td><strong>Current Workload</strong></td>
+                                        <td>{{host['current_workload']}}</td></tr>
+                                    <tr><td><strong>VCPUs</strong></td>
+                                        <td>{{host['vcpus']}}</td></tr>
+                                    <tr><td><strong>VCPUs Used</strong></td>
+                                        <td>{{host['vcpus_used']}}</td></tr>
+                                    <tr><td><strong>Running VMs</strong></td>
+                                        <td>{{host['running_vms']}}</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+             </div>
+             </div>
+
+            <div class="col-md-4">
+                    <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                CPU
+                            </div>
+                        <div class="panel-body">
+                            <table class="table table-striped">
+                                <tbody>
+
+                                    <tr><td><strong>TODO</strong></td>
+                                        <td>{{host['cpu_info']}}</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+   <div class="row">
+       <div class="col-md-12">
+            <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        Network
+                    </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    Overview
+                                </div>
+                                <div class="panel-body">
+                                    <table class="table table-striped">
+                                        <tbody>
+                                            <tr><td><strong>Cab</strong></td>
+                                                <td>{{host['cab']}}</td></tr>
+                                            <tr><td><strong>Switch</strong></td>
+                                                <td>{{host['switch_symbol']}}</td></tr>
+                                            <tr><td><strong>Primary IP</strong></td>
+                                                <td>{{host['primary_ip']}}</td></tr>
+                                            <tr><td><strong>Compute IP</strong></td>
+                                                <td>{{host['compute_ip']}}</td></tr>
+                                            <tr><td rowspan="{{host['ip_addresses']|count}}"><strong>IP Addresses</strong></td>
+                                                {% for ip in host['ip_addresses'] %}
+                                                <td>{{ip}}</td></tr>
+                                                {% endfor %}</tr>
+                                            <tr><td rowspan="{{host['ports']|count}}"><strong>Core Ports</strong></td>
+                                                {% for port in host['ports'] %}
+                                                <td>{{port}}</td></tr>
+                                                {% endfor %}</tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    Neighbors
+                                </div>
+                                <div class="panel-body">
+                                    <table class="table table-striped">
+                                         <thead>
+                                    <tr>
+                                      <th>Name</th>
+                                      <th>Interface ID</th>
+                                      <th>Remote if</th>
+                                      <th>Type</th>
+                                    </tr>
+                                  </thead>
+                                        <tbody>
+                                        {% for neighbor in host['neighbors'] %}
+                                            <tr>
+                                                 <td>{{neighbor['name']}}</td>
+                                                 <td>{{neighbor['interface_id']}}</td>
+                                                 <td>{{neighbor['remote_if']}}</td>
+                                                 <td>{{neighbor['type']}}</td>
+                                            </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    Connections
+                                </div>
+                                <div class="panel-body">
+                                    <table class="table table-striped">
+                                  <thead>
+                                    <tr>
+                                      <th>Type</th>
+                                      <th>IP Address</th>
+                                      <th>VLAN</th>
+                                      <th>CIDR</th>
+                                      <th>Gateway</th>
+                                      <th>Netmask</th>
+                                      <th>Block Type</th>
+                                      <th>NSS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                  {% for network in networks %}
+                                    <tr>
+                                      <td>{{network['name']}}</td>
+                                      <td>{{network['ip_address']}}</td>
+                                      <td>{{network['vlan_number']}}</td>
+                                      <td>{{network['ip_block_cidr']}}</td>
+                                      <td>{{network['gateway_ip']}}</td>
+                                      <td>{{network['netmask']}}</td>
+                                      <td>{{network['ip_block_type']}}</td>
+                                      <td>{{network['nss']}}</td>
+                                    </tr>
+                                  {% endfor %}
+                                  </tbody>
+                                </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    Switch Vlans
+                                </div>
+                                <div class="panel-body">
+                                      {% for vlan in host['switch_vlan_info']  %}
+                                        <div class="col-md-4">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    {{vlan['name']}}
+                                                </div>
+                                                <div class="panel-body">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr><td><strong>MAC</strong></td>
+                                                             <td>{{vlan['mac_address']}}</td></tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col-md-12">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    Switch Ports
+                                </div>
+                                <div class="panel-body">
+                                    <table class="table table-striped">
+                                  <thead>
+                                    <tr>
+                                      <th>ID</th>
+                                      <th>Name</th>
+                                      <th>Vlan ID</th>
+                                      <th>Interface ID</th>
+                                      <th>Alias</th>
+                                      <th>Admin</th>
+                                      <th>Type</th>
+                                      <th>Aggregated To</th>
+                                      <th>Has Connector</th>
+                                      <th>duplex</th>
+                                      <th>link</th>
+                                      <th>Native Vlan</th>
+                                      <th>Trunking Enabled</th>
+                                      <th>Encapsulation</th>
+                                      <th>CDP</th>
+                                      <th>Security Enabled</th>
+                                      <th>Speed</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                  {% for port in switch_port_info%}
+                                    <tr>
+                                      <td>{{port['id']}}</td>
+                                      <td>{{port['name']}}</td>
+                                      <td>{{port['vlan_id']}}</td>
+                                      <td>{{port['interface_id']}}</td>
+                                      <td>{{port['alias']}}</td>
+                                      <td>{{port['admin']}}</td>
+                                      <td>{{port['type']}}</td>
+                                      <td>{{port['aggregated_to']}}</td>
+                                      <td>{{port['has_connector']}}</td>
+                                      <td>{{port['duplex']}}</td>
+                                      <td>{{port['link']}}</td>
+                                      <td>{{port['native_vlan']}}</td>
+                                      <td>{{port['trunking_enabled']}}</td>
+                                      <td>{{port['encapsulation']}}</td>
+                                      <td>{{port['cdp']}}</td>
+                                      <td>{{port['security_enabled']}}</td>
+                                      <td>{{port['speed']}}</td>
+                                    </tr>
+                                  {% endfor %}
+                                  </tbody>
+                                </table>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+       </div>
+   </div>
+</div>
+
+{% endblock %}

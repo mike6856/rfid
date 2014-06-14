@@ -1,0 +1,92 @@
+{% set page_title = "Regions"%}
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="container-fluid" xmlns="http://www.w3.org/1999/html">
+{% for region, cells in regions.items() %}
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title">{{region}}</h2>
+        </div>
+            <div class="panel-body">
+                    <div class="row">
+                         <div class="col-sm-2">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        {{region}} overview
+                                    </div>
+                                    <div class="panel-body">
+                                         <ul class="nav nav-pills nav-stacked">
+                                            <li>
+                                                <a href="#">
+                                                <span class="badge pull-right">{{cells['cell_count']}}</span>
+                                                Cells
+                                                </a>
+                                            </li>
+                                             <li>
+                                                <a href="#">
+                                                <span class="badge pull-right">{{cells['cell_cab_count']}}</span>
+                                                Cabs
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/hosts/{{region}}">
+                                                <span class="badge pull-right">{{cells['cell_host_count']}}</span>
+                                                Hosts
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                <span class="badge pull-right">null</span>
+                                                IPs
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                          </div>
+                        <div class="col-sm-10">
+                            {% for sub_group in ['Standard', 'Performance 2', 'Performance 1', 'Haderp', 'Other'] %}
+                            {% if sub_group in cells %}
+                                <div class="col-sm-3">
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">
+                                            {{sub_group}}
+                                        </div>
+                                        <div class="panel-body">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                      <th>Cell</th>
+                                                      <th>Hosts</th>
+                                                      <th>Cabs</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                   {% for cell in cells[sub_group] %}
+                                                    <tr>
+                                                        <td><a href="/{{region}}/{{cell['name']}}">
+                                                            {{cell['name']}}</a></td>
+                                                        <td><a href="/hosts/{{region}}/{{cell['name']}}">
+                                                            {{cell['host_count']}}</a></td>
+                                                        <td>{{cell['cab_count']}}</td>
+                                                    </tr>
+                                                    {% endfor %}
+                                                  </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+            </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}

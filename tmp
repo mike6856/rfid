@@ -1,0 +1,88 @@
+{% set page_title = "Regions"%}
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="container-fluid" xmlns="http://www.w3.org/1999/html">
+{% for region, cells in regions.items() %}
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title">{{region}}</h2>
+        </div>
+            <div class="panel-body">
+                    <div class="row">
+                         <div class="col-sm-2">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        {{region}} overview
+                                    </div>
+                                    <div class="panel-body">
+                                        <!--<ul class="nav nav-pills nav-stacked">-->
+                                            <!--<li>-->
+                                                <!--<a href="#">-->
+                                                <!--<span class="badge pull-right">{{cells|length}}</span>-->
+                                                <!--Cells-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a href="/hosts/{{region}}">-->
+                                                <!--<span class="badge pull-right">{{cells|sum(attribute='host_count')}}</span>-->
+                                                <!--Hosts-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a href="#">-->
+                                                <!--<span class="badge pull-right">{{cells|sum(attribute='cab_count')}}</span>-->
+                                                <!--Cabs-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a href="#">-->
+                                                <!--<span class="badge pull-right">null</span>-->
+                                                <!--IPs-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                        <!--</ul>-->
+                                    </div>
+                                </div>
+                          </div>
+                        {% for cell in cells %}
+                            <!--<div class="col-sm-2">-->
+                                <!--{% if cell['cab_count'] == 1 and cell['cabs'][0]['name'] == 'None' %}-->
+                                <!--<div class="panel panel-danger">-->
+                                <!--{% else %}-->
+                                <!--<div class="panel panel-info">-->
+                                <!--{% endif %}-->
+                                    <!--<div class="panel-heading">-->
+                                        <!--<a href="/{{region}}/{{cell['name']}}">-->
+                                        <!--{{cell['name']}}-->
+                                        <!--</a>-->
+                                    <!--</div>-->
+                                    <!--<div class="panel-body">-->
+                                        <!--<ul class="nav nav-pills nav-stacked">-->
+                                            <!--<li>-->
+                                                <!--<a href="/hosts/{{region}}/{{cell['name']}}">-->
+                                                <!--<span class="badge pull-right">{{cell['host_count']}}</span>-->
+                                                <!--Hosts-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+
+                                                <!--<a href="#">-->
+                                                <!--<span class="badge pull-right">{{cell['cab_count']}}</span>-->
+                                                <!--Cabs-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                        <!--</ul>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        {% endfor %}
+                    </div>
+            </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}

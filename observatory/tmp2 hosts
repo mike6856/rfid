@@ -1,0 +1,56 @@
+{% set page_title = "Host List"%}
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <div class="container-fluid">
+        <div class="col-md-12">
+     <h1 class="page-header">Host list: {{path}}</h1>
+        <div class="row">
+            <div class="col-md-12">
+             <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            {{host_count}} Hosts, {{missing_compute_count}} Missing Compute, {{segconfig_count}} In Segment Config
+                        </div>
+                        <div class="panel-body">
+                            {% for host in hosts|sort %}
+                            <div class="col-sm-2">
+
+                                {% if host['compute_name'] == 'None' and  host['core_status'] == 'Online/Complete'%}
+                                <div class="panel panel-danger">
+                                {% elif host['core_status'] == 'Segment Configuration' %}
+                                <div class="panel panel-warning">
+                                {% else %}
+                                <div class="panel panel-success">
+                                {% endif %}
+
+                                    <div class="panel-heading">
+                                        <a href="/host/{{host['name']}}">
+                                        <small>{{host['name']}}</small>
+                                        </a>
+                                    </div>
+                                    <div class="panel-body">
+                                        <table class="table table-striped">
+                                <tbody>
+                                    <tr><td><strong><small>Number</small></strong></td>
+                                        <td><small>{{host['name']}}</small></td></tr>
+                                    <tr><td><strong><small>Primary IP</small></strong></td>
+                                        <td><small>{{host['primary_ip']}}</small></td></tr>
+                                    <tr><td><strong><small>Account</small></strong></td>
+                                        <td><small>{{host['account']}}</small></td></tr>
+                                </tbody>
+                            </table>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                           {% endfor %}
+                        </div>
+                    </div>
+            </div>
+        </div>
+      </div>
+</div>
+
+{% endblock %}
