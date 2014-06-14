@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64a21552-627a-41c6-95ce-a431ec699744" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observatory/static/stylesheets/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observatory/static/stylesheets/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observatory/static/stylesheets/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observatory/static/stylesheets/dashboard.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SoHacks/app/templates/layout.html" afterPath="$PROJECT_DIR$/observatory/templates/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observatory/app.py" afterPath="$PROJECT_DIR$/observatory/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observatory/templates/index.html" afterPath="$PROJECT_DIR$/observatory/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="observatory.iws" />
@@ -30,18 +35,72 @@
       <file leaf-file-name="app.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/observatory/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="0.15320334" vertical-offset="0" max-vertical-offset="1077">
+            <state line="1" column="9" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.013927577" vertical-offset="30" max-vertical-offset="2130">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/observatory/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="53" selection-start="161" selection-end="161" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1155">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="host_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/observatory/templates/host_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="44" selection-start="2841" selection-end="2841" vertical-scroll-proportion="-32.5" vertical-offset="120" max-vertical-offset="1380">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoHacks/app/Demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="54" selection-end="125" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="1335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/observatory/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/observatory/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+            <state line="10" column="39" selection-start="453" selection-end="453" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/observatory/static/stylesheets/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="86865">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoHacks/app/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="14" selection-start="0" selection-end="210" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -50,7 +109,7 @@
       <file leaf-file-name="users.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/observatory/static/users/users.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
               <folding />
             </state>
           </provider>
@@ -59,7 +118,7 @@
       <file leaf-file-name="tmp2 hosts" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/observatory/tmp2 hosts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+            <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -97,13 +156,13 @@
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/tmp" />
-        <option value="$PROJECT_DIR$/observatory/templates/index.html" />
         <option value="$PROJECT_DIR$/observatory/tmp2 hosts" />
         <option value="$PROJECT_DIR$/observatory/templates/host_list.html" />
         <option value="$PROJECT_DIR$/observatory/static/users/users.txt" />
         <option value="$PROJECT_DIR$/observatory/mongo/mongoapi.py" />
         <option value="$PROJECT_DIR$/observatory/templates/base.html" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/observatory/templates/index.html" />
         <option value="$PROJECT_DIR$/observatory/app.py" />
       </list>
     </option>
@@ -170,6 +229,188 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoHacks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoHacks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoHacks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoHacks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="observatory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rffid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoHacks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -185,7 +426,11 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/observatory/static/stylesheets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/observatory/templates" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -274,6 +519,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,9 +543,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -361,7 +606,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15335463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15495208" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -393,6 +638,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/observatory/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/static/users/users.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/tmp2 hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/observatory/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="40" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1185">
@@ -409,9 +682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/tmp2 hosts">
@@ -424,38 +695,32 @@
     <entry file="file://$PROJECT_DIR$/observatory/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="100" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1455">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1395">
-          <folding />
-        </state>
+        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1395" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/mongo/mongoapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1485">
-          <folding />
-        </state>
+        <state line="7" column="8" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1485" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="59" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2310">
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/mongo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/templates/cell_snapshot.html">
@@ -475,31 +740,27 @@
     <entry file="file://$PROJECT_DIR$/observatory/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="100" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1455">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1395">
-          <folding />
-        </state>
+        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1395" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="59" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="2145">
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/mongo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/templates/cell_snapshot.html">
@@ -512,23 +773,21 @@
     <entry file="file://$PROJECT_DIR$/observatory/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="100" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1455">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1395">
-          <folding />
-        </state>
+        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1395" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1785">
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -540,9 +799,7 @@
     <entry file="file://$PROJECT_DIR$/observatory/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -565,9 +822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/templates/host_view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="262" column="59" selection-start="14697" selection-end="14697" vertical-scroll-proportion="0.0" vertical-offset="3930" max-vertical-offset="4890">
-          <folding />
-        </state>
+        <state line="262" column="59" selection-start="14697" selection-end="14697" vertical-scroll-proportion="0.0" vertical-offset="3930" max-vertical-offset="4890" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/templates/cell_snapshot.html">
@@ -577,72 +832,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/observatory/templates/host_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="53" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/observatory/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/observatory/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="100" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1455">
-          <folding />
-        </state>
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1077" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.338843" vertical-offset="306" max-vertical-offset="1395">
-          <folding />
-        </state>
+        <state line="45" column="52" selection-start="801" selection-end="2590" vertical-scroll-proportion="0.338843" vertical-offset="306" max-vertical-offset="1395" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/mongo/mongoapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="86" selection-end="86" vertical-scroll-proportion="11.52" vertical-offset="348" max-vertical-offset="1425">
-          <folding />
-        </state>
+        <state line="4" column="8" selection-start="86" selection-end="86" vertical-scroll-proportion="11.52" vertical-offset="348" max-vertical-offset="1425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/mongo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="95" selection-end="95" vertical-scroll-proportion="0.04178273" vertical-offset="0" max-vertical-offset="1077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/observatory/static/users/users.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1102">
-          <folding />
-        </state>
+        <state line="3" column="39" selection-start="95" selection-end="95" vertical-scroll-proportion="0.04178273" vertical-offset="0" max-vertical-offset="1077" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observatory/tmp2 hosts">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="14" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/observatory/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="161" selection-end="161" vertical-scroll-proportion="0.06957328" vertical-offset="0" max-vertical-offset="1155">
           <folding />
         </state>
       </provider>
@@ -654,12 +871,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/static/users/users.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="53" selection-start="161" selection-end="161" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoHacks/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoHacks/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoHacks/app/test.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/host_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="44" selection-start="2841" selection-end="2841" vertical-scroll-proportion="-32.5" vertical-offset="120" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoHacks/app/Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="54" selection-end="125" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoHacks/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="0" selection-end="210" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="453" selection-end="453" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observatory/static/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="86865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/observatory/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="0.15320334" vertical-offset="0" max-vertical-offset="1077">
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state line="1" column="9" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.013927577" vertical-offset="30" max-vertical-offset="2130">
+          <folding />
         </state>
       </provider>
     </entry>
